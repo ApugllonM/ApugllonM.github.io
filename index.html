@@ -1,46 +1,248 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mi Perfil</title>
-    <link rel="stylesheet" href="css/estilo.css">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="Free Car template, with Bootstrap 4" />
+    <meta name="google" content="nositelinkssearchbox">
+    <meta name="author" content="@julianjp18">
+    <title>PERFIL PERSONAL</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <script src="js/main.js"></script>
 </head>
 <body>
-    <ul class="cambio">
-        <li>
-            <a href="index.html">INICIO</a>
-        </li>
-        <li>
-            <a href="curriculum.html">CURRICULUM VITAE</a>
-        </li>
-    </ul>
-    <div id="encabezado">
-        <h1>PERFIL PERSONAL</h1>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+        <div class="container">
+            <a class="navbar-brand js-scroll-trigger" href="#page-top">PERFIL PERSONAL</a>
+            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger" href="#about">¿QUIÉN SOY?</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger" href="#services">HOBBIES</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger" href="#portfolio">EXPERIENCIA</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger" href="#contact">EDUCACIÓN</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <header class="background-main">
+        <main class="main">
+            <h1 class="main-title">MARTHA APUGLLON
+                <a href="" class="typewrite" data-period="3000" data-type='[ "Creativa", "Empática", "Crítica", "Amable" ]'>
+                    <span class="wrap"></span>
+                </a>
+            </h1>
+        </main>
+    </header>
+    
+    <section class="about-us" id="about">
+        <div class="container">
+            <div class="text-center">
+                <h2>¿Quién soy?</h2>
+                <div class="line-shape"></div>
+                <p>
+                    Hola, mi nombre es Martha Cecilia Apugllon Arellano, nací el 12 de marzo del 2002 en la parroquia Cebadas, cantón Guamote y provincia de Chimborazo. Provengo de una familia indígena y muy grande, mi padre se llama Manuel Apugllon y mi madre María Arellano, somos 4 hermanas y 2 hermanos del cual yo soy la tercera. 
+                </p>        
+            </div>
+        </div>
+    </section>
+    <br>
+    <section class="services-class" id="services">
+        <div class="container">
+            <div class="row">
+            <div class="col-lg-12 text-center">
+                <h2 class="section-heading">HOBBIES</h2>
+                <div class="line-shape"></div>
+            </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+            <div class="col-lg-3 col-md-6 text-center">
+                <div class="service-box mt-5 mx-auto">
+                <i class="fas fa-4x fa-gem text-primary mb-3 sr-icon-1"></i>
+                <h3 class="mb-3">LECTURA</h3>
+                <p class="text-muted mb-0">Lectura silenciosa o subvocal.</p>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 text-center">
+                <div class="service-box mt-5 mx-auto">
+                <i class="fas fa-4x fa-paper-plane text-primary mb-3 sr-icon-2"></i>
+                <h3 class="mb-3">VIAJE</h3>
+                <p class="text-muted mb-0">Turismo de sol y playa.</p>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 text-center">
+                <div class="service-box mt-5 mx-auto">
+                <i class="fas fa-4x fa-code text-primary mb-3 sr-icon-3"></i>
+                <h3 class="mb-3">DEPORTE</h3>
+                <p class="text-muted mb-0">Deportes terrestres y acuáticos.</p>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 text-center">
+                <div class="service-box mt-5 mx-auto">
+                <i class="fas fa-4x fa-heart text-primary mb-3 sr-icon-4"></i>
+                <h3 class="mb-3">MÚSICA</h3>
+                <p class="text-muted mb-0">Música romántica </p>
+                </div>
+            </div>
+            </div>
+        </div>
+    </section>
+    <br>
+    <div class="container text-center" id="portfolio">
+            <h2 class="portfolio-title">EXPERIENCIA PREVIA</h2>
+            <div class="line-shape"></div>
     </div>
-    <div class="header">
-        <img 
-        class="avatar"
-        src="multimedia/foto.jpeg"/> 
-        <h1 class="user">Martha Apugllon</h1>
-    </div>   
-    <ul class="social">
-        <li>
-            <i class="icon fb"></i>
-            <a href="https://www.facebook.com/">FACEBOOK</a>
-        </li>
-        <li>
-            <i class="icon tw"></i>
-            <a href="https://twitter.com/">TWITTER</a>
-        </li>
-    </ul>
-    <div class="about">
-        <h3>Acerca de mí</h3>
-        <p>Hola, mi nombre es Martha Cecilia Apugllon Arellano, nací el 12 de marzo del 2002 en la parroquia Cebadas, cantón Guamote y provincia de Chimborazo. Provengo de una familia indígena y muy grande, mi padre se llama Manuel Apugllon y mi madre María Arellano, somos 4 hermanas y 2 hermanos del cual yo soy la tercera. </p>
-        <p>Crecí en mi hermosa parroquia en el que realicé mis estudios primarios en la ex -escuela “Patria” y secundarios en la Unidad Educativa “Doctor Emilio Uzcátegui”. 
-        En el colegió llegué a interesarme mucho por el deporte razón por el cual decidí ingresar en club de deportes, practicando específicamente el futbol. Cuando yo ingresé no había mujeres que practicaban este tipo de deporte lo que me implicó formar un grupo competitivo de mujeres, tuve que unirme al grupo de los hombres donde al principio me excluían por ser mujer, pero gracias al entrenador pude integrarme con ellos y lograr tener un nivel medio. Durante todo el periodo de la secundaria pase participando en campeonatos intercolegiales donde me ha dado la oportunidad de relacionarme con diversas personas.</p>
-        <p>Actualmente me encuentro estudiando la carrera de Pedagogía de las Ciencias Experimentales Informática y no es algo que tenia planificado. Lo que yo quería estudiar es Medicina, pero no alcance a tener el puntaje necesario rindiendo la prueba SENESCYT. Quería estudiar Medicina por el hecho de que me gusta ser neurocirujana ya que me gusta dar tratamiento de las enfermedades relacionadas con el cerebro, la columna vertebral y los nervios periféricos.</p>
-    </div>
+    <section>
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6 order-lg-2">
+                    <div class="p-5">
+                        <img class="img-fluid rounded-circle" src="img/portfolio/p-1.jpeg" alt="">
+                    </div>
+                </div>
+                <div class="col-lg-6 order-lg-1">
+                    <div class="p-5">
+                        <h2 class="display-4">PASANTÍA</h2>
+                        <p>Mis responsabilidades fueron:</p>
+                        <p>Aplicar métodos, técnicas, procedimientos y recursos didácticos acordes a las asignaturas a cargo para facilitar el aprendizaje a estudiantes de bachillerato. </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <div class="p-5">
+                        <img class="img-fluid rounded-circle" src="img/portfolio/p-2.jpeg" alt="">
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="p-5">
+                        <h2 class="display-4">VOLUNTARIADO</h2>
+                        <p>Profesora de informática voluntaria en la Unidad Educativa Juan de Velasco (Riobamba) para estudiantes de Bachillerato. Enseñando sistemas operativos monousuarios. </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6 order-lg-2">
+                    <div class="p-5">
+                        <img class="img-fluid rounded-circle" src="img/portfolio/p-3.jpeg" alt="">
+                    </div>
+                </div>
+                <div class="col-lg-6 order-lg-1">
+                    <div class="p-5">
+                        <h2 class="display-4"> INSTRUCTOR TUTOR EN TAREAS DIRIGIDAS</h2>
+                        <p>Acompañamiento Pedagógico en las tareas de estudiantes de básica media,  supervisando y asesorando en las tareas escolares, nivelando y reforzando en todas las asignaturas.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="contact-us" id="contact">
+        <div class="container">
+            <div class="row">
+            <div class="col-lg-12 text-center">
+                <h2 class="section-heading">EDUCACIÓN</h2>
+                <div class="line-shape"></div>
+                <br>
+                <br>
+                <br>
+                <br>
+            </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+            <div class="col-lg-3 col-md-6 text-center">
+                <div class="service-box mt-5 mx-auto">
+                <i class="fas fa-4x fa-gem text-primary mb-3 sr-icon-1"></i>
+                <h3 class="mb-3">INSTRUCCIÓN SUPERIOR:</h3>
+                <p class="text-muted mb-0">Universidad Nacional de Chimborazo (Pedagogía de las ciencias experimentales informática)</p>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 text-center">
+                <div class="service-box mt-5 mx-auto">
+                <i class="fas fa-4x fa-paper-plane text-primary mb-3 sr-icon-2"></i>
+                <h3 class="mb-3">INSTRUCCIÓN SECUNDARIA:</h3>
+                <p class="text-muted mb-0">Unidad Educativa "Dr. Emilio Uzcátegui" (Bachillerato en ciencias)</p>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 text-center">
+                <div class="service-box mt-5 mx-auto">
+                <i class="fas fa-4x fa-code text-primary mb-3 sr-icon-3"></i>
+                <h3 class="mb-3">INSTRUCCIÓN PRIMARIA:</h3>
+                <p class="text-muted mb-0">Escuela fiscal mixta "Patria"</p>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 text-center">
+                <div class="service-box mt-5 mx-auto">
+                <i class="fas fa-4x fa-heart text-primary mb-3 sr-icon-4"></i>
+                <h3 class="mb-3">CURSOS REALIZADOS</h3>
+                <p class="text-muted mb-0">Computación</p>
+                <p class="text-muted mb-0">Desarrollo Personal</p>
+                <p class="text-muted mb-0">Mantenimiento de Computadores</p>
+                <p class="text-muted mb-0">Física y Matemáticas</p>
+                </div>
+            </div>
+            </div>
+        </div>
+    </section>
+    <br>
+        <!-- Footer -->
+    <footer class="footer text-center">
+        <div class="container">
+            <ul class="list-inline mb-5">
+                <li class="list-inline-item">
+                    <a class="social-link rounded-circle text-white mr-3" href="#">
+                    <i class="fab fa-facebook-f"></i>
+                    </a>
+                </li>
+                <li class="list-inline-item">
+                    <a class="social-link rounded-circle text-white mr-3" href="#">
+                    <i class="fab fa-twitter"></i>
+                    </a>
+                </li>
+                <li class="list-inline-item">
+                    <a class="social-link rounded-circle text-white" href="#">
+                    <i class="fab fa-github"></i>
+                    </a>
+                </li>
+                <li class="list-inline-item">
+                    <a class="social-link rounded-circle text-white" href="#">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                </li>
+            </ul>
+            <p class="text-muted small mb-0">Copyright &copy; Your Website 2018</p>
+        </div>
+    </footer>
+    <br>
 </body>
 </html>
